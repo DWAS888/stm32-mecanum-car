@@ -20,6 +20,7 @@ CAR_SECOND/
 │   ├── motor.c           # 电机 PWM 控制
 │   ├── mecanum.c         # 麦轮运动学（vx/vy/vw → 4 轮转速）
 │   ├── line_follow.c     # 循迹逻辑
+│   ├── arm.c             # 机械臂舵机控制
 │   └── ...
 ├── Drivers/              # ST HAL 库 + CMSIS
 ├── MDK-ARM/              # Keil 工程 (CAR_SECOND.uvprojx)
