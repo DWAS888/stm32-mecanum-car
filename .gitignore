@@ -1,0 +1,21 @@
+# ---- Keil 编译产物 ----
+# 编译输出目录：.o .d .axf .map .htm 等
+MDK-ARM/CAR_SECOND/
+# 调试器会话配置
+MDK-ARM/DebugConfig/
+# Pack 生成的 RTE_Components.h
+MDK-ARM/RTE/
+# 窗口布局与调试选项（每人机器不一样）
+*.uvguix.*
+*.uvoptx
+# 散落的编译中间文件
+*.o
+*.d
+*.crf
+*.lst
+*.map
+*.axf
+
+# ---- Python 缓存 ----
+__pycache__/
+*.pyc
